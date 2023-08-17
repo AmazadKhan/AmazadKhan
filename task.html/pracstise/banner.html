@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner</title>
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        .banner{
+            height: 500px;
+            width: 100%;
+            border: 1px solid black;
+            /* background: url('https://lapinozpizza.in/assets/wla_new/lapinoz/img/banner2.jpg'); */
+            position: relative;
+        }
+        .banner img{
+            filter: brightness(50%);
+            position: absolute;
+        }
+        .banner h1{
+            font-size: 70px;
+            color: white;
+            position: absolute;
+            margin: auto;
+            margin-top: 14%;
+            margin-left: 24%;
+        }
+        .banner ul{
+            z-index: 2;
+            color: red;
+            position: absolute;
+            margin-left: 24%;
+        }
+        .banner ul li {
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 2%;
+            padding: 0 20px;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+
+            
+        }
+        .banner ul li:hover{
+            border: 2px solid white;
+
+        }
+        .login{
+            border: 2px solid white;
+
+        }
+        .login:hover 
+        {
+            border: 2px solid white;
+            background-color: rgb(21, 240, 21);
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="banner">
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>order online</li>
+            <li>store locator</li>
+            <li>content us</li>
+            <li class="login">login</li>
+        </ul>
+   
+        <img src="https://lapinozpizza.in/assets/wla_new/lapinoz/img/banner2.jpg" alt="" height="100%" width="100%">
+        
+        <h1 >Lorem ipsum dolor <span style="color: yellow;"> sit amet.</span></h1>
+    </header>
+</body>
+</html>
