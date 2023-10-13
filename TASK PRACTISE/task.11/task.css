@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 80%;
+    height: 600PX;
+    margin: auto;
+    margin-top: 3%;
+    background-color: rgb(128, 128, 128);
+    border-width: 6px;
+    border-style: solid;
+    border-image:  linear-gradient(45deg, red, yellow,green);
+    border-image-slice: 1 ;
+}
