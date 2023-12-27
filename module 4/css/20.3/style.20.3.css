@@ -1,0 +1,88 @@
+
+
+.main{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+
+}
+.banner{
+    width: 55%;
+    height: 100%;
+    border: 1px solid red;
+    background-color: black;
+    position: absolute;
+    filter: opacity(0.9);
+
+}
+.bg-image{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 55%;
+}
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+.banner .detail{
+    width: 90%;
+    height: inherit;
+    /* border: 1px solid gray; */
+    text-align: right;
+    color: white;
+    /* position: absolute; */
+}
+.detail h1{
+    border-right:5px solid orangered ;
+    padding: 0px 35px;
+    margin-top: 40px;
+}
+.detail h4{
+    word-spacing: 1px;
+    color: orangered;
+}
+.detail p{
+    font-size: 12px;
+}
+
+.icon {
+    position: absolute;
+    left:785px;
+    z-index: 2;
+
+    
+}
+.icon .i-1 i{
+    border: 1px solid white;
+    border-radius:50%;
+    padding: 15px;
+    color:orangered;
+    position: absolute;
+    background-color: white;
+    top: 150px;
+}
+.icon .i-2 i{
+    border: 1px solid white;
+    border-radius:50%;
+    padding: 15px;
+    color:orangered;
+    position: absolute;
+    background-color: white;
+    top: 280px;
+}
+.icon .i-3 i{
+    border: 1px solid white;
+    border-radius:50%;
+    padding: 15px;
+    color:orangered;
+    position: absolute;
+    background-color: white;
+    top: 420px;
+}

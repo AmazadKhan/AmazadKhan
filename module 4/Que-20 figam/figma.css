@@ -1,0 +1,275 @@
+@media (max-width:500px) 
+{
+    *{
+        margin: 0 !important;
+        padding: 0;
+        box-sizing: border-box;
+        /* outline: solid blue!important; */
+    }
+    .main{
+        width: auto!important;
+        height: auto !important;
+    }
+   header .header {
+        width: 90%!important;
+        height: 40px !important;
+        /* border: 1px solid red !important; */
+        position: absolute;    
+    }
+    .header .head-text .team{
+        height: auto;
+        left:20px !important;
+        padding:0px !important;
+        /* border: 1px solid !important; */
+    }
+    .header .head-text .text {
+        display: none;
+    }
+    .header .head-text span{
+        display: none;
+    }
+    .header .head-text .menu{
+      width:auto!important;
+      margin-left: 350px !important;
+      z-index: 1;
+      display: block;
+    }
+    .header .head-text .menu .submenu{
+      display: none;
+    }
+    
+    .header .head-text .menu .submenu li{
+      /* display: none; */
+      /* width: 100%; */
+      background: plum !important;
+      padding: 5px 3px;
+      /* margin-right:60px !important; */
+      font-weight: 700;
+      color: black;
+      background: rgb(149, 238, 233) !important;
+      cursor: pointer;
+    }
+   
+    .s-1 .t-1{
+        display: none;
+    }
+    .s-1 .t-2{
+        font-size: 24px !important;
+        margin-top: 5% !important;
+        left: 27% !important;
+        background: #F2F9EB !important;
+    }
+   .header .head-text .menu .submenu li:hover{
+      text-decoration: underline;
+      color:rgb(174, 117, 43) ;
+   }
+   
+    .s-2 .t-1{
+        width: 400px !important;
+        height: auto !important;
+        left: 35px!important;
+        top: 150px !important;
+        /* border: 1px solid blue; */
+        font-size: 50px !important;
+        text-align: center;
+    }
+    .s-2 .t-2{
+        width: 350px !important;
+        height: auto !important;
+        left: 60px!important;
+        top: 350px !important;
+        /* border: 1px solid blue; */
+        font-size: 20px !important;
+    }
+    .s-3 input{
+        left: 60px !important;
+        top: 450px !important;
+        padding: 15px 25px !important;
+        font-size: 25px !important;
+    }
+    .s-3 span{
+        width: 360px !important;
+        left: 60px !important;
+        top: 510px !important;
+        padding: 15px 25px !important;
+        font-size: 25px !important;
+    }
+    .s-4{
+        width: 95% !important;
+        left: 10px !important;
+        top: 580px !important;
+    }
+    .s-5 span{
+        width: 90% !important;
+        left: 40px !important;
+        top: 930px !important;
+    }
+    .s-5 .l-1{left: 10px !important;}
+    .s-5 .l-2{left: 120px !important;}
+    .s-5 .l-3{left: 240px !important;}
+    .s-5 .l-4{left: 360px !important;}
+    .s-5 .l-5{display: none;}
+    .s-6{
+        left: 0px !important;
+        width:auto!important;
+        /* display: none; */
+    }
+    .s-6 .d-1{
+        left:15px !important;
+        width: 450px !important;
+        /* height: 400px !important; */
+    }
+    
+    .s-6 .d-3{
+      /* display: none; */
+        left:50px !important;
+        top: 600px !important;
+    }
+    .s-7{
+      width: 70%;
+    }
+    .s-7 p{
+        left: -20px !important;
+        top: 460px !important;
+    }
+    .s-7 .mainbox{
+        width: auto !important;
+        /* display: none; */
+        /* top: 800px !important; */
+    }
+    .s-7 .mainbox .subbox{
+        width: auto !important;
+    }
+    .s-7 .mainbox .subbox .box{
+        width: 100% !important;
+        position: absolute !important;
+    }
+    .subbox .b1{
+        top: 530px !important;
+        left: -20px !important;
+    }
+    .subbox .b2{
+        top: 730px !important;
+        left: -20px !important;
+    }
+    .subbox .b3{
+        top: 930px !important;
+        left: -20px !important;
+    }
+    .subbox .b4{
+        top: 1130px !important;
+        left: -20px !important;
+    }
+    .subbox .b5{
+        top: 1320px !important;
+        left: -20px !important;
+    }
+    .subbox .b6{
+        top: 1500px !important;
+        left: -20px !important;
+    }
+    .s-7 .mainbox .subbox .box .sv-1 {
+        margin-left: 150px !important;
+    }
+    .s-7 .mainbox .subbox .b-1 img{
+      margin-left: -54px !important;
+      margin-bottom: 25px !important;
+    }
+
+    
+.b-2  img{
+    margin-left: 150px !important;
+       }
+  .s-7 .mainbox .subbox .box span{font-size: 19px !important;}
+  .s-7 .mainbox .subbox .box span b{font-size: 30px !important;}
+  .s-8{
+    left: 0px !important;
+    top: 3450px !important;
+    text-align: center !important;
+    /* width: auto !important ; */
+  }
+  .s-8 .i-1{
+    width: 90% !important;
+    left: 45px !important;
+  }
+  .s-8 .i-2{
+    width: 95% !important;
+    right:-30px !important;
+    top: 270px !important;
+  }
+  
+  .s-9 .t-1{
+    left: 100px !important;
+    top: 4130px !important;
+  }
+  .s-9 .t-2{
+    left: 90px !important;
+    top: 4250px !important;
+    font-size: 24px !important;
+  }
+  .s-9 .t-3 .v1{
+    left: 0px !important;
+    top: 1400px !important;
+    width: 400px !important;
+  }
+ 
+  .s-9 .t-3 .v2{
+    display: none !important;
+  }
+  .s-9 .t-3 .v3{
+    display: none !important;
+  }
+  .s-10{
+    width: 450px !important;
+    left: 15px !important;
+    height: 350px !important;
+    top: 4500px !important;
+  }
+  .s-10 .text{
+    top: 10px !important;
+    left: 50px !important;
+  }
+  .s-10 .image-1{
+    top: 150px !important;
+    left: 120px !important;
+  }
+  .s-10 .image-2{
+    top: 250px !important;
+    left: 120px !important;
+  }
+  .s-11{
+    width: 450px !important;
+    left: 15px !important;
+    height: 470px !important;
+    top: 4900px !important;
+  }
+  .s-11 .footer-1 .box p{
+    display: none;
+  }
+  .s-11 .footer-1 .box{
+    width: 100% !important;
+    height: 30px !important ;
+    /* border: 1px solid !important; */
+  }
+   .s-11 .footer-1 { 
+      padding: 5px 17px;}
+      
+  .s-11 .footer-2{
+    top: 150px !important;
+  }
+  
+  .s-11 .footer-2 p{
+    font-size: 25px !important;
+  }
+  .s-11 .footer-2 svg{
+    display: none;
+  }
+
+
+ 
+  
+  
+
+    
+
+}

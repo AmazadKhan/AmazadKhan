@@ -1,0 +1,501 @@
+.main{
+    width: 100%;
+    height: auto;
+    position:relative;
+}
+.header {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid; */
+    position: absolute;
+}
+
+.header .head-text div {
+    width: 150px;
+    height: auto;
+    color: #35414B;
+    /* font-family:Inter; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* padding:  100px;  */
+    display: inline;
+    position: absolute;
+    Top: 10px;
+}
+.header .head-text .team{
+    Left:165px;
+     color: #1D2830;
+      font-family: Josefin Sans;
+      font-size: 26px;
+       font-weight:800;
+       position: absolute;
+}
+
+.header .head-text {
+    position: absolute;
+}
+
+.header .head-text div span {
+    left: 1129px;
+    position: absolute;
+    width: 160px;
+    background-color: rgba(236, 229, 255, 1);
+    color: rgba(121, 76, 255, 1);
+    padding: 7px;
+    text-align: center;
+    top: -7px;
+}
+.header .head-text .menu{
+    display: none;
+    position:absolute;
+}
+.header .head-text .menu .submenu li{
+    list-style: none;
+    /* display: none; */
+}
+
+.s-1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.s-1 span {
+    position: absolute;
+    top: 60px;
+    border-radius: 100px;
+    padding: 10px 15px;
+}
+
+.s-1 .t-1 {
+    left: 594px;
+    color: #FFF;
+    background-color: #81C43B;
+}
+
+.s-1 .t-2 {
+    color: #35414B;
+    background: #F2F9EB;
+    left: 688px;
+}
+
+.s-2 .t-1 {
+    position: absolute;
+    color: #35414B;
+    Width: 760px;
+    Height: 144px;
+    font-size: 54px;
+    font-weight: 600;
+    top: 150px;
+    left: 490px;
+}
+
+.s-2 .t-2 {
+    position: absolute;
+    color: #4E5A65;
+    width: 505px;
+    height: 48px;
+    text-align: center;
+    top: 290px;
+    left: 485px;
+}
+
+.s-3 input {
+    padding: 10px 15px;
+    top: 350px;
+    left: 580px;
+    position: absolute;
+    color: #97A5B5;
+    background-color: rgba(225, 229, 234, 1);
+    border: none;
+}
+
+.s-3 span {
+    position: absolute;
+    padding: 8px 15px;
+    border: 1px solid #794CFF;
+    background: #794CFF;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    color: white;
+    top: 350px;
+    left: 760px;
+}
+
+.s-4 {
+    /* height: 625px; */
+    width: 50%;
+    position: absolute;
+    top: 430px;
+    left: 370px;
+}
+
+.s-4 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 4px rgba(29, 40, 48, 0.18);
+}
+
+.s-5 span {
+    top: 930px;
+    left: 520px;
+    position: absolute;
+    font-weight: 700;
+    color: #4E5A65;
+}
+.s-5 .l-1{
+    position: absolute;
+    left: 250px;
+}
+.s-5 .l-2{
+    position: absolute;
+    left: 462px;
+}
+.s-5 .l-3{
+    position: absolute;
+    left: 674px;
+}
+.s-5 .l-4{
+    position: absolute;
+    left: 891px;
+}
+.s-5 .l-5{
+    position: absolute;
+    left: 1110px;
+}
+
+.s-5 div img {
+    position: absolute;
+    top: 1000px;
+}
+
+.s-6 {
+    width: 85%;
+    height: 600px;
+    border: 3px dashed #F0EBFA;
+    background: #FBFAFE;
+    top: 1100px;
+    left: 100px;
+    position: absolute;
+}
+
+.s-6 div {
+    display: inline;
+    /* width: 120px; */
+    /* height: 200px; */
+    border: 1px solid;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.s-6 .d-1 {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #E1E5EA;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.s-6 .d-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s-6 .d-3 {
+    width: 394px;
+    height: 467px;
+    border: 1px solid #E1E5EA;
+    margin-top: 35px;
+    margin-left: 70px;
+    /* text-align: center; */
+}
+
+.d-3 p {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 40px;
+    color: #4E5A65;
+    padding: 2px 5px;
+}
+
+.d-3 p b {
+    color: #35414B;
+}
+
+.d-3 .t-1 {
+    border: 1px solid #F6F3FC;
+    background: #F6F3FC;
+    border-radius: 8px;
+    top: 10px;
+    border-left: 7px solid #794CFF;
+}
+
+.s-7 {
+    width: 85%;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    top: 1750px;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+
+.s-7 p {
+    position: absolute;
+    left: 500px;
+    top: -5px;
+    text-align: center;
+    font-size: 35px;
+    color: #35414B;
+    font-weight: 600;
+}
+
+.s-7 .mainbox {
+    width: 80%;
+    height: 450px;
+    /* border: 1px solid; */
+    margin: 65px auto;
+    /* position: absolute; */
+    text-align: left;
+
+}
+
+.s-7 .mainbox .subbox {
+    /* position: absolute; */
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-items: left; */
+
+}
+
+.s-7 .mainbox .subbox .box {
+    width: 30%;
+    height: 180px;
+    
+}
+
+.s-7 .mainbox .subbox .box .sv-1 {
+    /* position: absolute; */
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.s-7 .mainbox .subbox .b-1 img {
+    /* position: absolute; */
+    margin-left: -55px;
+    margin-bottom: 27px;
+}
+
+.s-7 .mainbox .subbox .box span {
+    width: 250px;
+    height: 80px;
+    font-size: 14px;
+    color: #4E5A65;
+}
+
+.s-7 .mainbox .subbox .box span b {
+    color: #35414B;
+    font-size: 16px;
+    /* text-align: left; */
+}
+
+.b-2  img{
+margin-left: 20px;
+margin-top: 8px;
+}
+.s-8{
+    width: 85%;
+    height: 450px;
+    position: absolute;
+    left: 100px;
+    top: 2300px;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+.s-8 div{
+    display: inline;
+    position: absolute;
+    background-color: #FFF;
+}
+.s-8 .i-1{
+    width: 34%;
+    height: 380px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.s-8 .i-1 h1{
+    font-size: 45px;
+    color: #35414B;
+    font-weight: 600;
+}
+.s-8 .i-1 span{
+    font-size: 20px;
+    color: #4E5A65;
+}
+.s-8 .i-1 button{
+border-radius: 4px;
+background: #796EFF;
+color: white;
+padding: 10px 20px;
+border: none;
+}
+.s-8 .i-2{
+    width: 55%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-top: 90px;
+    margin-left: 530px;
+}
+.s-8 .i-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s-9 .t-1{
+    width: 300px;
+    height: 94px;
+    /* border: 1px solid; */
+    font-size: 32px;
+    position: absolute;
+    top: 2800px;
+    left: 580px;
+    color: #35414B;
+    font-weight: 600;
+}
+.s-9 .t-2{
+    width: 340px;
+    height: 94px;
+    /* border: 1px solid; */
+    font-size: 16px;
+    position: absolute;
+    top: 2910px;
+    left: 550px;
+    color: #4E5A65;
+}
+.s-9 .t-3{
+    width: 75%;
+    height: 70px;
+    left: 13%;
+    /* border: 1px solid; */
+    top: 3000px;
+    position: absolute;
+}
+.s-9 .t-3 .team{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: inline;
+    position: absolute;
+    /* top: 2px; */
+}
+.s-9 .t-3 .team div{
+    position: absolute;
+    top: 8px;
+}
+
+.s-9 .t-3 .v-1 .detail{
+    left: 80px;
+    font-size: 22px;
+    padding: 2px 5px;
+}
+.s-9 .t-3 .v1{
+    border-top: 5px solid #35414B;
+     left: 20px; 
+}
+.s-9 .t-3 .v2{
+   left:350px;
+}
+.s-9 .t-3 .v3{
+    left:680px;
+ }
+
+.s-10{
+    width: 70%;
+    height: 150px;
+    border-radius: 16px;
+    background: #796EFF;
+    position: absolute;
+    top: 3100px; 
+    left: 230px;
+}
+.s-10 .text{
+    position: absolute;
+    width: 360px;
+    height: 70px;
+    font-size: 32px;
+    color: white;
+    /* border: 1px solid; */
+    top: 25%;
+    left: 20px;
+    padding: 5px 10px;
+}
+.s-10 .image-1{
+    position: absolute;
+    top: 31%;
+    left: 540px;
+}
+.s-10 .image-2{
+    position: absolute;
+    top: 31%;
+    left: 740px;
+}
+.s-11{
+    width: 99%;
+    height: 350px;
+    position: absolute;
+    border: 1px solid gray;
+    background: #1D2830; 
+    color: white;
+    top: 3300px;
+}
+.s-11 .footer-1{
+    width: 90%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.s-11 .footer-1 .box{
+    width:23%;  
+    height:250px;
+    /* border: 1px solid blue; */
+
+
+}
+.s-11 .footer-1 .box b{
+    font-size: 22px;
+}
+.s-11 .footer-1 .box p{
+    font-size: 18px;
+    /* color: white; */
+}
+.s-11 .footer-2{
+    width: 90%;
+    height: 50px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    position: relative;
+}
+.s-11 .footer-2 p{
+    left: 30px;
+    position: absolute;
+}
+.s-11 .footer-2 svg{
+    position: absolute;
+    top: 8px;
+}
+
+
+
+

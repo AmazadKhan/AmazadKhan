@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px;
+}
+u{
+    font-size: 22px;
+}
+.detail h4{
+    font-size: 22px;
+    color: red;
+}
+.detail{
+    font-size: 20px;
+}
+ol li{
+    color: blue;
+}
+.types{
+    font-size: 22px;
+}
+.types dl dt{
+    color: orangered;
+    font-weight: 700;
+}

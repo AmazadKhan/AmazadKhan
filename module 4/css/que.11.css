@@ -1,0 +1,15 @@
+h3{
+    font-size: 30px;
+}
+u{
+    font-size: 25px;
+}
+.detail{
+    font-size: 23px;
+    line-height:2;
+}
+.detail .example{
+    text-align: center;
+    border: 1px solid blue;
+    background-color: aquamarine;
+}

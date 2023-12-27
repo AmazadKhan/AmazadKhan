@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px;
+}
+u{
+    font-size: 22px;
+}
+.detail{
+    font-size: 20px;
+}
+.types{
+    font-size: 20px;
+}
+.types dl dt{
+    color: rgb(58, 23, 198);
+    font-weight: 800;
+}
+span{
+    text-decoration: underline;
+    font-weight: 600;
+}

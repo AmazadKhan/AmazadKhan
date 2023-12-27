@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-17</title>
+    <link rel="stylesheet" href="./css/que.17.css">
+    </head>
+<body>
+    <h3>
+        Qu:-17  What is the meaning of the CSS selector?
+    </h3>
+    <u>Answer</u>:
+<div class="detail">
+    &#8614 The CSS Selector selects the HTML elements ,on which we want to apply Various css style .<br>
+    &#8614 There are various types of Selectors.<br>
+    <ol>
+        <li>Simple Selector</li>
+        <li>Combinator Selector</li>
+        <li>Pseudo-class Selector</li>
+        <li>Pseudo-element Selector</li>
+    </ol>
+</div>
+<div class="types">
+    <dl>
+        <dt>
+            Simple Selector
+        </dt>
+        <dd>
+            * In this type of selector,select elements by it's name,id & class.<br>
+           * <span>Element selector:</span>Element selector used to apply style in particular element.Element selector apply with name of element in style tag on head tag.<br>
+            * <span>Class selector:</span> Class selector used to apply style in particular class name.Class selector apply with fullstop mark(.) & then written class name.<br>
+            * <span>Id selector:</span> Id selector used to apply style in particular id name.Id name must be unique.Id selector apply with hash symbol(#)& then written id name.
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            Combinator Selector
+        </dt>
+        <dd>
+           * In this type of selector, Select element based on their relationship between them.<br>
+           * <span>Group selection:</span> Group selection used to apply css style to particular group of the element.For apply group selection, write element in style tag by separated them with coma (,) symbol.<br>
+            * <span>Child Selector:</span> Child Selector used to apply to css internal(child) element of main(Parent) element.This selector apply by write parent element ,then graterthan (>) symbol & child element.<br>
+            * <span>General selector:</span>General selector used to select the group of element that share the common parent element.This selector apply by  element-1 tlide (~)  symbol & element-2 <br> 
+            * <span>Adjacent Selector:</span>The adjacent selector is used to select an element that is directly after another specific elements.<q> Adjacent</q> meaning<q> Immediately following.</q>Sibling elements must have the same parent element.This selector apply by element-1 plus(+)symbol & element-2. 
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            Pseudo-class selector
+        </dt>
+        <dd>
+        * pseudoclass selector apply with <q>colon (:)</q> symbol.<br>
+        * <span>hover selector:</span>hover selector is used to apply(change) style on various element,when mouse over them.hover selector not supported for link.We can change cursor style with the use of cursor property.<br>
+        * <span>Focus Selector:</span>It is used to apply (change) style on element,when click on them.It is apply by colon(:) symbol with write focus.<br>
+        * <span>Link selector:</span>It is used to apply (change) style on  hyperlink.We can change style diffrent css to various three types of links:1. Normal link  &nbsp; 2.Active link &nbsp; 3.Visited link
+        </ol> 
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            Pseudo-element Selector
+        </dt>
+        <dd>
+       * Pseudoelement selector apply with <q>Double colon (::)</q> symbol.<br>
+        * <span>After - Before Selector:</span>After & before Selector used to apply css after& before of the content.
+        In both selector, <q> Content Property</q> must be appiled.Without content property it's doesn't work.
+        In content Property,value must be apply in <u> single coma ('')</u>.
+        <br>
+       * <span>Firstline/letter Selector:</span>Firstline/letter selector used to apply css in firstline/letter of the element content. It is apply by this way: (element::firstline/letter{css style}) in external or internal style sheet.<br>
+       * <span>Placeholder selector:</span>Placeholder is one type of attribute used in creation of the login form.Placeholder selector used to apply css to placeholder attribute.It is apply by this way:(::placeholder{css style})in external or internal style sheet.
+       </dd>
+    </dl>
+</div>
+</body>
+</html>

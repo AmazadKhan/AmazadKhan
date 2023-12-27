@@ -1,0 +1,13 @@
+h3{
+    font-size: 25px;
+}
+u{
+    font-size: 22px;
+}
+.detail{
+    font-size: 21px;
+}
+.detail dl dt{
+    color: seagreen;
+    font-weight: 600;
+}

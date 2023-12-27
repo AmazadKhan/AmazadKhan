@@ -1,0 +1,170 @@
+.main{
+    width: 70%;
+    height:650px;
+    margin: auto;
+
+
+
+}
+.banner{
+    width: 100%;
+    height: 65%;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(30%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 83%, 50% 99%, 0 82%);
+    
+    }
+   .logo{
+        position: absolute;
+        color: white;
+        border: 1px solid white;
+        padding: 4px;
+        font-size: 25px;
+        top: 20px;
+        left: 180px;
+    }
+    .logo span{
+        background-color: white;
+        color: black;
+        padding: 3px 7px;
+     }
+     .header{
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        top: 25px;
+        right: 100px;
+     }
+     .header ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+     }
+     .home{
+        color: orangered;
+        border-bottom: 2px solid orangered;
+     }
+     .text-1{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 100px;
+        text-align: center;
+        left: 420px;
+        word-spacing: 5px;
+     }
+     .text-2{
+        position: absolute;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        font-size: 40px;
+        font-weight:700;
+        top: 150px;
+        left: 350px;
+     }
+     .text-3{
+        position: absolute;
+        width: 28%;
+        color: white;
+        top: 220px;
+        font-size: 12px;
+        left: 410px;
+     }
+     .button{
+        position: absolute;
+        bottom: 110px;
+     }
+     .button .b-1{
+        padding: 5px 15px;
+        font-size: 14px;
+        margin-left: 390px;
+        background-color: orangered;
+        border: none;
+        color: white;
+     }
+     .button .b-2{
+        padding: 5px 38px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        margin-left: 15px;
+     }
+     .icon{
+        position: absolute;
+        top: 200px;
+
+
+     }
+     .i-1{
+        background-color: lightgray;
+        margin-left: 50px;
+        filter: brightness(40%);
+        padding: 2px 6px;
+        border:none;
+     }
+     .i-2{
+        background-color: orangered;
+        padding: 2px 6px;
+        border:none;
+        margin-left: 920px;
+       }
+       .middle{
+        position: absolute
+       }
+       .middle i{
+        color: orangered;
+        background-color: white;
+        border-radius: 50%;
+        padding: 3px 7px;
+        margin-top: 400px;
+        margin-left:522px;
+       }
+       .flexbox{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .box{
+        width: 21%;
+        height: auto;
+        text-align: center;
+        margin-top: 10px;
+
+       }
+       .box i{
+        color:orangered;
+
+       }
+        
+       .b1 i{
+        border: 1px solid ;
+        padding: 10px 15px;
+        border-radius: 50%;
+        
+           }
+           .b1 p{
+            color: orangered;
+           }
+           .b2 i{
+        border: 1px solid ;
+        padding: 10px 15px;
+        border-radius: 50%;
+           }
+           .b3 i{
+        border: 1px solid ;
+        padding: 10px 15px;
+        border-radius: 50%;
+           }
+           .b4 i{
+        border: 1px solid ;
+        padding: 10px 15px;
+        border-radius: 50%;
+           }
