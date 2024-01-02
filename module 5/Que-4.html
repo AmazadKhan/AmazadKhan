@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+    <style>
+        h3{
+            font-size: 25px;
+        }
+        u{
+            font-size: 22px;
+        }
+        .detail{
+            font-size: 20px;
+        }
+        .detail h4{
+            color: rgb(0, 204, 255);
+        }
+    </style>
+</head>
+<body>
+    <h3>Qu:-4 Canvas and SVG tags</h3>
+    <u>Answer</u>:
+<div class="detail">
+    <!-- svg tag -->
+    <h4>SVG Tag</h4>
+    * SVG-<mark>Scalable vector graphics</mark><br>
+    * SVG is used for create graphics for web page &web sites.<br>
+    * SVG gives best output as compare to <q> canvas</q> graphic designer.<br>
+    * SVG creates graphics without use of JAVA Script.<br>
+    * SVG is a vector based image formate to represents two dimensional graphics.<br>
+    * With help of the SVG we can create lines,shapes or curves.<br>
+   *  One example:<br>
+<svg width="150px" height="150px">
+    <circle cx="50" cy="50" r="40"  stroke="yellow" stroke-width="5px"
+    fill="brown">
+</svg>
+<!-- canvas tag -->
+<h4>Canvas Tag</h4>
+* Canvas tag is also used for the create Graphics in webpage & website.<br>
+* Canvas creates 1d,2d & 3d graphics with use of JAVAScript<br>
+* Canvas is "pixel" based graphice creator.<br>
+* Drawback of this is that,Canvas Created graphics became blur on Zoomout the page.<br>
+*  One example:<br>
+<canvas id="circle" width="150px" height="150px"></canvas>
+</div>
+<script>
+    var canvas = document.getElementById('circle');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle ='red';
+    ctx.rect (50 ,30 ,100,100);
+    // ctx.stroke();
+    ctx.strokestyle='red'
+    ctx.strokewidth='5';
+    ctx.fill();
+    ctx.stroke();
+</script>
+
+</body>
+</html>

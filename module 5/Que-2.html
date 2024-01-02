@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+    <style>
+        h3{
+            font-size: 25px;
+        }
+        u{
+            font-size: 22px;
+        }
+        .detail{
+            font-size: 20px;
+        }
+        .detail dl dt {
+            color: rgb(255, 0, 106);
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+   <h3>Qu:-2 How to embed audio and video in a webpage?</h3> 
+   <u>Answer</u>:<br>
+   <div class="detail">
+&#8614 With use of "audio" and "video" tags of HTML5,we can embed audio and video in webpage.<br>
+&#8614 In both types of tags the path of the audio & video file pass into src attribute of the source tag.<br>
+&#8614 There are some other property,which are same in this tags,likes<br>
+<ol>
+    <li>autoplay:-------used to start audio & video automatically.</li>
+    <li>muted:--------used to mute(no sound) the audio & video in web pages.</li>
+    <li>loop:--------used to continuously play audio & vedio.</li>
+</ol>
+<dl>
+    <dt>1.Audio</dt>
+    <dd>
+    &#8614 With use of audio tag of HTML-5 ,we can apply audio to the web-page.<br>
+    &#8614 Controls must be write in audio tag.<br>
+    &#8614 Syntax:
+    <pre>
+        &lt;audio controls &gt;
+           &lt;source src="path of audio file"&gt;
+        &lt;/audio&gt;   
+    </pre>
+    &#8614  One example:<br>
+    <audio controls muted loop>
+        <source src="media/mp3.mp3">
+    </audio>
+    </dd>
+    </dl>
+    <dl>
+        <dt>2.video</dt>
+        <dd>
+        &#8614 With use of video tag of HTML-5 ,we can apply video to the web-page.<br>
+        &#8614 Controls must be write in audio tag.<br>
+        &#8614 In video tag, we can also add "poster",which is show on video until start the video. It is appild in poster attribute in video tag.<br>
+        &#8614 Syntax:
+        <pre>
+            &lt;video controls &gt;
+               &lt;source src="path of video file"&gt;
+            &lt;/video &gt;   
+        </pre>
+       &#8614  One example:<br>
+        <video controls loop height="300px" width="500px" poster="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?cs=srgb&dl=pexels-danny-meneses-943096.jpg&fm=jpg" muted autoplay>
+            <source src="media/mp4.mp4">
+        </video>
+           </div>
+</body>
+</html>
