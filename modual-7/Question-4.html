@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $(".span").parents().css({
+    "border":"2px solid red",
+    "margin": "6px 10px"
+  });
+});
+    </script>
+    <style>
+        u{
+    font-size: 20px;
+}
+.body {
+    height: 50vh;
+}
+ li{
+    list-style: none;
+    padding-left: 1%;
+}
+.span{
+    border: 2px solid;
+    margin-bottom: 0.5%;
+    padding-left: 1%;
+
+}
+    </style>
+</head>
+<body>
+    <h2>Qu:-4 Event bubbling tickling example </h2>
+    <u>Answer</u>:<br>
+    <div class="body">
+        body(great-great-grandparent)<br>
+        <div class="div">
+            div(great-grandparent)
+            <ul>
+                ul(grandparent)
+                <li>li(direct parent)
+                    <div class="span">span</div>
+                    
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('pre').css('background', 'blue')
+        });
+    
+    </script>
+    <style>
+        u{
+    font-size: 22px;
+        }
+        .detail{
+            font-size:20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h2>How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+        JQuery Animation?</h2>
+    <u>Answer:</u><br>
+    <div class="detail">
+        <!-- apply css -->
+        <h3>1.Apply CSS</h3>
+        -> For Apply CSS Using JQuery,<mark>Css() </mark>method is used.<br>
+        -> for Apply jQuary to the web page,the link of the jQuary must be apply in script tag.<br>
+        example:
+        <pre>
+         &lt;script &gt;
+            $(document).ready(function () {
+                $('pre').css('background', 'red'))}
+         
+            </pre >
+            <!-- add class & remove class -->
+        <h3>2.Add class & remove class</h3>
+        
+        -> for add the class <mark>.addclass()</mark>method is used.<br>
+        -> for remove the class <mark>.removeclass()</mark>method is used.<br>
+        -> if we  want to apply add or remove class together <mark>toggleclass()</mark>methgod is used.<br>
+        *syntax:
+        <pre>
+            &lt;script &gt;
+            $(document).ready(function (){
+                $("p").addClass("bgcolor");-----for add class
+                $("p").removeClass("bgcolor")----for remove class
+                $("p").toggleclass("bgcolor")---- for add/remove process together)}
+            &lt;/script &gt;
+        </pre>
+        <!-- animate jQuary  -->
+        <h3>3.Animation JQuary</h3>
+        -> for create Animation using JQuary animate() method is used.
+        *syntax:
+        <pre>
+            &lt;script &gt;
+            $(selector).animate({params},speed,callback);
+            &lt;script &gt;
+            </pre>
+            
+        
+    </div >
+</body >
+
+</html >

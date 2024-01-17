@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-3</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".box").animate({
+                    height: '+=30px',
+                    width: '500px'
+                }, 1000)
+                });
+        });
+        </script>
+        <style>
+            u{
+    font-size: 22px;
+        }
+        .detail{
+            font-size:20px;
+        }
+       .box{
+width: 50%;
+height: 50vh;
+background-color: rgba(117, 212, 10, 0.643);
+
+       }
+        </style>
+
+</head>
+<body>
+    <h2>
+        How to create slider with animation?
+    </h2>
+    <u>Answer</u>:<br>
+        <div class="detail">
+         -> for create Animation using JQuary animate() method is used.
+         *syntax:$(selector).animate({params},speed,callback);<br>
+         ->here params is used for apply various property.<br>
+         <button type="button">Animation</button><br><br>
+
+         <div class="box"></div>
+        </div>
+</body>
+</html>
