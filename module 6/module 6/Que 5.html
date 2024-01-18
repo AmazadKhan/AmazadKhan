@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-5</title>
+    <style>
+        u{
+            font-size: 22px;
+        }
+        .detail{
+            font-size: 20px;
+        }
+        .detail span{
+            color: blue;
+            font-weight: 600;
+        }
+        .detail pre{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Qu:-5 What are undeclared and undefined variables?</h2>
+    <u>Answer</u>:<br><br>
+    <div class="detail">
+        <span>*Undeclared Variable</span><br>
+        ->Undeclared variable are those ,that do not exist in the programme & are not declared.<br>
+        ->if we try to read the value of the undeclared variable , then at runtime , error is showed in console.<br>
+        ->Example of it given below,<br> 
+        <pre>
+            &lt;script&gt;
+            console.log(myvariable)
+            &lt;/script&gt;
+            At run time show error:-  //ReferenceError:myvariable is not defined.
+        </pre><br><br>
+        <span>*Undefined variables</span><br>
+        -> Undefined Variable are those,which are declared but not assign any type of value to it .<br>
+        -> If we try to read the value of this undefined variables ,"undefined" is showed.<br>
+        ->Example of it given below,<br> 
+        <pre>
+            &lt;script&gt;
+            let myname;
+            console.log(myname)
+            &lt;/script&gt;
+            At run time show :-  // undefined.
+    </div>
+    <script>
+        // undefined variable 
+     let myname;
+     console.log(myname);
+
+    //  undeclared variable
+     console.log(myvariable);
+
+    </script>
+
+</body>
+</html>
