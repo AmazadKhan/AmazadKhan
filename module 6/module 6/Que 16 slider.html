@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        body{background: #000;}
+        .x{
+            height: 500px;
+            width: 80%;
+            margin: auto;
+            position: relative;
+        }
+        .x img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            filter: brightness(70%);
+        }
+        button{
+            height: 100%;
+            padding: 10px 20px;
+            font-size: 57px;
+            position: absolute;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-weight: 900;
+            color: #fff;
+        }
+        #btn-1{
+            left: 0;
+            top: 0%;
+            /* transform: translateY(50%); */
+        }
+        #btn-2{
+            right: 0;
+            top: 0%;
+            /* transform: translateY(50%); */
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <img src="https://i.pinimg.com/736x/53/ad/68/53ad68dc96d309c14958ec6d756c76c6.jpg" alt="" id="img">
+        <button type="button" id="btn-1" onclick="pre()">Pre</button>
+        <button type="button" id="btn-2" onclick="next()">Next</button>
+    </div>
+    <script>
+        // let btn1 = document.getElementById('btn-1');
+        // let btn2 = document.getElementById('btn-2');
+        let img = document.getElementById("img");
+        let flag = 0;
+        function next()
+        {
+            if(flag == 0)
+            {
+                img.src= "https://images.unsplash.com/photo-1590523278191-995cbcda646b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+            }
+            else if(flag == 1)
+            {
+                img.src = "https://i.pinimg.com/originals/87/2b/23/872b237dad3cc9efe7ca32550ddb6c98.jpg"
+            }
+            else if(flag == 2)
+            {
+                img.src = "https://i.pinimg.com/736x/47/2b/61/472b61d49bb2c847bb7e0665497af47e.jpg"
+            }
+            else if(flag == 3)
+            {
+                img.src = "https://images.unsplash.com/photo-1522003878398-14c13adf3c5d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+            }
+            else{
+                img.src="https://i.pinimg.com/736x/53/ad/68/53ad68dc96d309c14958ec6d756c76c6.jpg"
+                flag = 0;
+            }
+            ++flag;
+        }
+        function pre()
+        {
+            if(flag == 0)
+            {
+                img.src= "https://images.unsplash.com/photo-1590523278191-995cbcda646b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+            }
+            else if(flag == 1)
+            {
+                img.src = "https://i.pinimg.com/originals/87/2b/23/872b237dad3cc9efe7ca32550ddb6c98.jpg"
+            }
+            else if(flag == 2)
+            {
+                img.src = "https://i.pinimg.com/736x/47/2b/61/472b61d49bb2c847bb7e0665497af47e.jpg"
+            }
+            else if(flag == 3)
+            {
+                img.src = "https://images.unsplash.com/photo-1522003878398-14c13adf3c5d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+            }
+            else{
+                img.src="https://i.pinimg.com/736x/53/ad/68/53ad68dc96d309c14958ec6d756c76c6.jpg"
+                flag = 3;
+            }
+        --flag;
+        }
+        setInterval(next, 5000)
+    </script>
+</body>
+</html>

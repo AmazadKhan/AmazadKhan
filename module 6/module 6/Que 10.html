@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question10</title>
+    <link rel="stylesheet" href="css/Que 10.css">
+</head>
+<body>
+    <h2>How can you convert the string of any base to an integer in JavaScript?</h2>
+    <u>Answer</u>:<br>
+    <div class="detail">
+        ->There are two method to convert the string to an integer.<br>
+        1.parseInt()<br>
+        2.parseFloat()<br>
+        <h4>1.parseInt()</h4><br>
+        -> This is used to convert the string to an integer.<br>
+        -> If the given value is not convertible it gives NaN, other cases it converts string into integer.<br>
+        -> With use of this ,we not convert any desimal value into a  integer.<br>
+        -> <span>Syntax:parseInt('string value'); </span><br>
+        -> Example of it given here,<br>
+        <pre>
+        &lt;script&gt;
+        let a = parseInt('56');
+        console.log(a);
+        //output :- 56
+        let b = parseInt('5.6');
+        console.log(b);
+        // output :- 5 ---- because ('5.6') is desimal number
+        let c = parseInt('hello');
+        console.log(c);
+        //output:- NaN ---- because ('hello') is not convertible number.
+        let d = parseInt('56hello');
+        console.log(d);
+        //output:- 56 ---- because ('hello') is not convertible number or 56 is convertible.
+        &lt;/script&gt;
+        </pre>
+      -> from above example,this converts value into integer till it's convertible.
+      <!-- parsefloat() -->
+      <h4>1.parseFloat()</h4><br>
+        -> This is used to convert the string to an integer.<br>
+        -> If the given value is not convertible it gives NaN, other cases it converts string into integer.<br>
+        -> With use of this ,we also convert any desimal value into a  integer.it is the main difference b/w parseInt() & parseFloat()<br>
+        -> <span>Syntax:parseFloat('string value'); </span><br>
+        -> Example of it given here,<br>
+        <pre>
+        &lt;script&gt;
+        let a = parseFloat('56');
+        console.log(a);
+        //output :- 56
+        let b = parseFloat('5.6');
+        console.log(b);
+        // output :- 5.6
+        let c = parseFloat('hello');
+        console.log(c);
+        //output:- NaN ---- because ('hello') is not convertible number.
+        let d = parseFloat('56hello');
+        console.log(d);
+        //output:- 56 ---- because ('hello') is not convertible number or 56 is convertible.
+        &lt;/script&gt;
+        </pre>
+      -> from above example,this converts value into integer till it's convertible.
+
+    </div>
+    <script>
+        let a = parseFloat('56');
+        console.log(a);
+        let b = parseFloat('5.6');
+        console.log(b);
+        let c = parseFloat('hello');
+        console.log(c);
+        let d = parseFloat('56hello');
+        console.log(d)
+
+
+    </script>
+</body>
+</html>
