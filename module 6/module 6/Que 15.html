@@ -3,30 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Que 15</title>
+    <title>markshit</title>
+    <link rel="stylesheet" href="./css/20.css">
 </head>
-<body>
-    <h1> (que-15)What is the use of Void (0)?
-    </h1>
-    <pre style="font-family: Arial, Helvetica, sans-serif;">
 
-        The void operator evaluates an expression and returns undefined.
-        This operator is often used to obtain the undefined primitive value, 
-        using "void(0)" (useful when evaluating an expression without using the 
-        return value).
-    </pre>
-    <mark>
-        Example
-    </mark>
-    <h2>
-        <a href="javascript:void(0);">
-            Useless link
-          </a>
-          
-          <a href="javascript:void(document.body.style.backgroundColor='red');">
-            Click me to change the background color of body to red
-          </a>
-    </h2>
+<body>
+    <div class="main">
+        <h2>Markshit for Information Techology</h2>
+        <p class="entermark">Enter marks</p>
+    <table>
+         
+        <tr>
+            <th><span> 1. C langauge</span> </th>
+            <td><input type="text" id="c-mark"></td>
+        </tr>
+
+
+        <tr>
+            <th><span>2. c++ langauge </span> </th>
+            <td><input type="text" id="cp"></td>
+        </tr>
+
+
+        <tr>
+            <th><span> 3. Database</span> </th>
+            <td><input type="text" id="db"></td>
+        </tr>
+
+
+        <tr>
+            <th><span> 4. Html</span> </th>
+            <td><input type="text" id="html"></td>
+        </tr>
+
+
+        <tr>
+            <th><span> 5. Css</span> </th>
+            <td><input type="text" id="css"></td>
+        </tr>
+
+
+        <tr>
+            <th><span> 6. php</span> </th>
+            <td><input type="text" id="php"></td>
+        </tr>
+
+
+        <tr>
+            <th><span> 7. Core java</span> </th>
+            <td><input type="text" id="cj"></td>
+        </tr>
+
+        <tr>
+            
+            <td></td>
+            <td><button onclick="results()">Result</button></td>
+        </tr>
+        <tr>
+            <td class="res_fild"><p>Total is : <em class="outmark"  id="demo">Total Here</em> / 700</p></td>
+            <td class="res_fild"><p>Percentage is : <em class="per" id="per">Persentage Here</em></p></td>
+        </tr>
+     </table>
+
+    
+</div>
+
+
+<script>
+
+function results(){
+    var cMark = parseInt(document.getElementById("c-mark").value);
+    var cplus = parseInt(document.getElementById("cp").value);
+    var Database = parseInt(document.getElementById("db").value);
+    var html = parseInt(document.getElementById("html").value);
+    var css = parseInt(document.getElementById("css").value);
+    var php = parseInt(document.getElementById("php").value);
+    var core = parseInt(document.getElementById("cj").value);
+
+    var alltotal = cMark + cplus + Database + html + css + php + core;
+
+    var per = alltotal / 7 + "%"; 
+    
+    document.getElementById("demo").innerHTML = alltotal;
+    document.getElementById("per").innerHTML = per ;
+}
+
+</script>
 
 
 
