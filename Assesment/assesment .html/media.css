@@ -1,0 +1,81 @@
+@media(max-width:900px){
+    .mainbox{
+        height: 1200px;
+        width: 100%;
+        position: relative;
+    }
+    .mainbox .text{
+        position: absolute;
+        top: 3%;
+        left: 5%;
+    }
+    .mainbox .content{
+        height: 17%;
+        width: 90%;
+        position: absolute;
+        top: 13%;
+        left: 5%;
+        display: grid;
+        grid-template-columns:50% 40% 10% ;
+    }
+    .mainbox .maincontent{
+    height: 60%;
+    width: 90%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 55% 90%;
+
+    }
+    .mainbox .maincontent .content2 iframe{
+        width: 120%;
+    }
+    .mainbox .maincontent .content1 {
+        width: 90%;
+        height: 60%;
+    }
+    .mainbox .maincontent .content1  .res {
+        width: 90%;
+    }
+
+}
+
+
+@media(max-width:500px){
+    .mainbox{
+        height: 1400px;
+        width: 100%;
+        position: relative;
+    }
+    .mainbox .text{
+        position: absolute;
+        top: 3%;
+        left: 5%;
+    }
+    .mainbox .content{
+        height: 22%;
+        width: 90%;
+        position: absolute;
+        top: 13%;
+        left: 5%;
+        display: grid;
+        grid-template-columns:60%;
+        grid-template-rows: 40% 40% 20%;
+    }
+    .mainbox .maincontent{
+        height: 50%;
+        width: 90%;
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 50% 60%;
+    }
+    .mainbox .maincontent .content1  .res {
+        width: 90%;
+        box-sizing: border-box;
+    }
+}
