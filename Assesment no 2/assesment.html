@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider" onmouseover="pauseSlide()" onmouseout="resumeSlide()">
+    <div class="slides">
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4oBoYP8KJq8W_iILo-xHg3F-JuS_3Fjavqw&s" alt="Image 1">
+        <div class="caption">Caption 1</div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3UTpRtqG53FSUADIONsqJyguT36OQ-CfLA&s" alt="Image 2">
+        <div class="caption">Caption 2</div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1qPEMr-ES3bkIXj0tkYKcUiMHbD4LhxtzQ&s" alt="Image 3">
+        <div class="caption">Caption 3</div>
+      </div>
+    </div>
+    <div class="navigation">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="indicators">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
