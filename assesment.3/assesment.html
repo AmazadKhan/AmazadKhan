@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="bookingForm">
+        <label for="bookingType">Choice of Booking:</label>
+        <select id="bookingType" name="bookingType" required>
+            <option value="">Select an option</option>
+            <option value="fullDay">Full Day Booking</option>
+            <option value="halfDay">Half Day Booking</option>
+            <option value="hourly">Hourly Booking</option>
+        </select>
+
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName" required>
+
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" required pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="numOfPersons">Number of Persons:</label>
+        <input type="number" id="numOfPersons" name="numOfPersons" required min="1" max="20" title="Please enter a number between 1 and 20">
+
+        <div id="dateContainer">
+            <label for="bookingDate">Date:</label>
+            <input type="date" id="bookingDate" name="bookingDate" required>
+        </div>
+
+        <div id="timeContainer" class="hidden">
+            <label for="bookingTime">Time:</label>
+            <input type="time" id="bookingTime" name="bookingTime">
+        </div>
+
+        <div id="slotContainer" class="hidden">
+            <label for="bookingSlot">Slot:</label>
+            <select id="bookingSlot" name="bookingSlot">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const bookingType = document.getElementById('bookingType');
+            const dateContainer = document.getElementById('dateContainer');
+            const timeContainer = document.getElementById('timeContainer');
+            const slotContainer = document.getElementById('slotContainer');
+
+            bookingType.addEventListener('change', (event) => {
+                const selectedValue = event.target.value;
+
+                dateContainer.classList.remove('hidden');
+                timeContainer.classList.add('hidden');
+                slotContainer.classList.add('hidden');
+
+                if (selectedValue === 'fullDay') {
+                    timeContainer.classList.add('hidden');
+                    slotContainer.classList.add('hidden');
+                } else if (selectedValue === 'halfDay') {
+                    slotContainer.classList.remove('hidden');
+                } else if (selectedValue === 'hourly') {
+                    timeContainer.classList.remove('hidden');
+                }
+            });
+
+            const form = document.getElementById('bookingForm');
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const formData = new FormData(form);
+                const data = Object.fromEntries(formData.entries());
+
+                alert(`Booking Details:\n
+                    Choice of Booking: ${data.bookingType}
+                    \nUser Name: ${data.userName}
+                    \nMobile Number: ${data.mobileNumber}
+                    \nEmail: ${data.email}
+                    \nNumber of Persons: ${data.numOfPersons}
+                    \nDate: ${data.bookingDate}
+                    ${data.bookingType === 'hourly' ? `\nTime: ${data.bookingTime}` : ''}
+                    ${data.bookingType === 'halfDay' ? `\nSlot: ${data.bookingSlot}` : ''}`);
+                
+                // You can add code here to send the form data to a server using fetch or XMLHttpRequest
+                // For now, we just log it to the console
+                console.log(data);
+            });
+        });
+    </script>
+</body>
+</html>
